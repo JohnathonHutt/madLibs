@@ -17,7 +17,7 @@ app.post("/", function(req, res){
   var verb = req.body.verb;
   var num = req.body.num;
   var adj = req.body.adj;
-  res.send("Did you see a " + adj + " " + name + " " + verb + " " + num + " sandwiches in " + place + "?");
+  res.send("Watch " + adj + " " + name + " " + verb + " over " + num + " school buses today at " + place + "!");
 });
 
 app.listen(3000, function(){
